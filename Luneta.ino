@@ -33,8 +33,6 @@ void setup()
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
   pinMode(ledPin, OUTPUT);
-  
-  
 }
 
 void loop()
@@ -55,7 +53,6 @@ void loop()
     delay (1) ;
   }
   else {digitalWrite(ledPin,LOW);}
-
 }
 
 void stepper()              //Pauso bat aurrera egiten duen Funtzioa
@@ -71,7 +68,6 @@ void stepper()              //Pauso bat aurrera egiten duen Funtzioa
   Serial.print("Norantza:  ");
   Serial.println(Direction);
   Serial.println("");
-
 }
 
 // Norantzaren arabera bobinen eszitazio norantza definitzen duen Funtzioa
