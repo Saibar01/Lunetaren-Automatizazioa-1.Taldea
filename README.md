@@ -1,0 +1,1 @@
+# Lunetaren-Automatizazioa-1.Taldea
