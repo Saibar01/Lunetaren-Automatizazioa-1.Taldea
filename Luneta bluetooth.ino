@@ -83,7 +83,7 @@ void loop()
     delay (1) ;
   }
   else {
-    //digitalWrite(ledPin, LOW);
+    digitalWrite(ledPin, LOW);
   }
 }
  
